@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnableTLS12Behaviour", "Src\EnableTLS12Behaviour.csproj", "{4FCF56EA-60AC-4995-A64E-5277BDDDBF0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DF25215F-9DC7-47EF-968D-27BC554420E0}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "EnableTLS12BehaviourSetup", "EnableTLS12BehaviourSetup\EnableTLS12BehaviourSetup.vdproj", "{1204CDF7-5214-4154-9E1A-EF9770D7B592}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FCF56EA-60AC-4995-A64E-5277BDDDBF0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FCF56EA-60AC-4995-A64E-5277BDDDBF0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FCF56EA-60AC-4995-A64E-5277BDDDBF0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FCF56EA-60AC-4995-A64E-5277BDDDBF0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1204CDF7-5214-4154-9E1A-EF9770D7B592}.Debug|Any CPU.ActiveCfg = Debug
+		{1204CDF7-5214-4154-9E1A-EF9770D7B592}.Debug|Any CPU.Build.0 = Debug
+		{1204CDF7-5214-4154-9E1A-EF9770D7B592}.Release|Any CPU.ActiveCfg = Release
+		{1204CDF7-5214-4154-9E1A-EF9770D7B592}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
